@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "extraction_date": "2026-02-22T12:46:54.096202",
+    "comfyui_path": "D:\\ComfyUI\\Workspace\\environments\\local-env\\ComfyUI",
+    "comfyui_version": "v0.14.2",
+    "comfyui_commit_sha": "185c61d",
+    "total_folder_types": 21
+  },
+  "folder_mappings": {
+    "checkpoints": [
+      "checkpoints"
+    ],
+    "configs": [
+      "configs"
+    ],
+    "loras": [
+      "loras"
+    ],
+    "vae": [
+      "vae"
+    ],
+    "text_encoders": [
+      "text_encoders",
+      "clip"
+    ],
+    "diffusion_models": [
+      "unet",
+      "diffusion_models"
+    ],
+    "clip_vision": [
+      "clip_vision"
+    ],
+    "style_models": [
+      "style_models"
+    ],
+    "embeddings": [
+      "embeddings"
+    ],
+    "diffusers": [
+      "diffusers"
+    ],
+    "vae_approx": [
+      "vae_approx"
+    ],
+    "controlnet": [
+      "controlnet",
+      "t2i_adapter"
+    ],
+    "gligen": [
+      "gligen"
+    ],
+    "upscale_models": [
+      "upscale_models"
+    ],
+    "latent_upscale_models": [
+      "latent_upscale_models"
+    ],
+    "custom_nodes": [
+      "custom_nodes"
+    ],
+    "hypernetworks": [
+      "hypernetworks"
+    ],
+    "photomaker": [
+      "photomaker"
+    ],
+    "classifiers": [
+      "classifiers"
+    ],
+    "model_patches": [
+      "model_patches"
+    ],
+    "audio_encoders": [
+      "audio_encoders"
+    ]
+  },
+  "legacy_aliases": {
+    "unet": "diffusion_models",
+    "clip": "text_encoders"
+  }
+}

@@ -1,0 +1,28 @@
+# Staging area
+staging/
+
+# Staging metadata
+metadata/
+
+# logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.bak
+
+# Runtime marker (created after successful environment initialization)
+.complete
+
+# PyTorch backend configuration (machine-specific)
+.pytorch-backend
+
+# Local UV config overrides (machine-specific)
+.local-uv-config
+
+# Lock file (machine-specific due to PyTorch platform variants)
+uv.lock
