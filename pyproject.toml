@@ -49,6 +49,11 @@ repository = "https://github.com/comfygit-ai/comfygit-manager"
 version = "0.0.23"
 download_url = "https://cdn.comfy.org/akatz/comfygit-manager/0.0.23/node.zip"
 source = "registry"
+
+[tool.comfygit.nodes.premium-button-bar]
+name = "premium-button-bar"
+version = "dev"
+source = "development"
 [tool.uv]
 exclude-dependencies = ["opencv-contrib-python", "opencv-python", "opencv-python-headless"]
 [dependency-groups]
