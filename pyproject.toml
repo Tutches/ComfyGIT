@@ -54,6 +54,14 @@ source = "registry"
 name = "premium-button-bar"
 version = "dev"
 source = "development"
+
+[tool.comfygit.nodes.quick-connections]
+name = "quick-connections"
+registry_id = "quick-connections"
+repository = "https://github.com/niknah/quick-connections"
+version = "1.0.23"
+download_url = "https://cdn.comfy.org/niknah/quick-connections/1.0.23/node.zip"
+source = "registry"
 [tool.uv]
 exclude-dependencies = ["opencv-contrib-python", "opencv-python", "opencv-python-headless"]
 [dependency-groups]
