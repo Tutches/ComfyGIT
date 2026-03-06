@@ -62,6 +62,19 @@ repository = "https://github.com/niknah/quick-connections"
 version = "1.0.23"
 download_url = "https://cdn.comfy.org/niknah/quick-connections/1.0.23/node.zip"
 source = "registry"
+
+[tool.comfygit.nodes.Comfyui-Resolution-Master]
+name = "Comfyui-Resolution-Master"
+registry_id = "Comfyui-Resolution-Master"
+repository = "https://github.com/Azornes/Comfyui-Resolution-Master"
+version = "1.5.14"
+download_url = "https://cdn.comfy.org/azornes/Comfyui-Resolution-Master/1.5.14/node.zip"
+source = "registry"
+
+[tool.comfygit.nodes.glassbar-extension]
+name = "glassbar-extension"
+version = "dev"
+source = "development"
 [tool.uv]
 exclude-dependencies = ["opencv-contrib-python", "opencv-python", "opencv-python-headless"]
 [dependency-groups]
